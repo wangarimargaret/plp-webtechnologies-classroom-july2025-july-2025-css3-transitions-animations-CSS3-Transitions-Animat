@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!-- Declares this document uses HTML5 -->
+<html lang="eg"> <!-- Sets the language of the page to English -->
+<head>
+  <meta charset="UTF-8" /> <!-- Ensures proper character encoding (UTF-8 supports most characters) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Makes the page responsive on all devices -->
+  <title>Interactive CSS & JS Demo</title> <!-- Sets the title shown in the browser tab -->
+  <link rel="stylesheet" href="styles.css" /> <!-- Links to the external CSS file for styling -->
+</head>
+<body> <!-- Begins the visible content of the page -->
+
+  <header> <!-- Header section for the page title and intro text -->
+    <h1>Welcome to My Interactive Page</h1> <!-- Main heading of the page -->
+    <p>Click the buttons below to trigger animations and explore dynamic effects.</p> <!-- Introductory paragraph for user guidance -->
+  </header>
+
+  <section id="controls"> <!-- Section containing buttons to trigger animations -->
+    <button id="animateBtn">Animate the Box (Fast)</button> <!-- Button to trigger fast animation -->
+    <button id="slowAnimateBtn">Animate the Box (Slow)</button> <!-- Button to trigger slow animation -->
+  </section>
+
+  <section id="animationArea"> <!-- Section where the animated box will appear -->
+    <div class="box"></div> <!-- Empty box element to be styled and animated -->
+  </section>
+
+  <section id="extras"> <!-- Section for additional interactive elements -->
+    <div class="card">Flip Me</div> <!-- Card element that can flip on hover or click -->
+    <div class="loader"></div> <!-- Loader element to show loading animation -->
+    <div class="modal">This is a popup modal</div> <!-- Modal element for popup interaction -->
+  </section>
+
+  <script src="script.js"></script> <!-- Links to the external JavaScript file for interactivity -->
+</body>
+</html> <!-- Ends the HTML document -->
